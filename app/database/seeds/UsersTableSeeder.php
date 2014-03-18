@@ -12,16 +12,53 @@ class UsersTableSeeder extends Seeder {
 		foreach(range(1, 10) as $index)
 		{
 			User::create([
-                'name' => 'Mike',
-                'username' => 'mstnorris',
-                'email' => 'mstnorris@gmail.com',
-                'password' => 'password'
+                'name' => 'Adam',
+                'username' => 'adam',
+                'email' => 'adam@yourdomain.com',
+                'password' => 'password',
+                'dob' => '1991-01-01'
 			]);
             User::create([
-                'name' => 'Holly',
-                'username' => 'hjmcnicol',
-                'email' => 'holly.mcnicol@live.co.uk',
-                'password' => 'password'
+                'name' => 'Ben',
+                'username' => 'ben',
+                'email' => 'ben@yourdomain.com',
+                'password' => 'password',
+                'dob' => '1992-02-02'
+            ]);
+            User::create([
+                'name' => 'Charlie',
+                'username' => 'charlie',
+                'email' => 'charlie@yourdomain.com',
+                'password' => 'password',
+                'dob' => '1993-03-03'
+            ]);
+            User::create([
+                'name' => 'Dave',
+                'username' => 'dave',
+                'email' => 'dave@yourdomain.com',
+                'password' => 'password',
+                'dob' => '1994-04-04'
+            ]);
+            User::create([
+                'name' => 'Eric',
+                'username' => 'eric',
+                'email' => 'eric@yourdomain.com',
+                'password' => 'password',
+                'dob' => '1995-05-05'
+            ]);
+            User::create([
+                'name' => 'Fred',
+                'username' => 'fred',
+                'email' => 'fred@yourdomain.com',
+                'password' => 'password',
+                'dob' => '1996-06-06'
+            ]);
+            User::create([
+                'name' => 'George',
+                'username' => 'george',
+                'email' => 'george@yourdomain.com',
+                'password' => 'password',
+                'dob' => '1997-07-07'
             ]);
 		}
 	}
