@@ -52,12 +52,23 @@ return array(
 			'prefix'   => '',
 		),
 
-		'mysql' => array(
+		'mysql_default' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
 			'database'  => 'database',
 			'username'  => 'root',
 			'password'  => '',
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',
+		),
+
+		'mysql' => array(
+			'driver'    => 'mysql',
+			'host'      => 'localhost',
+			'database'  => 'michagg7_moodeebee',
+			'username'  => 'michagg7_mdb',
+			'password'  => 'dav3-clair3-coc0-cin0',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
