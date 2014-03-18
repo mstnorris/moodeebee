@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateTracksTable extends Migration {
+class CreateUsedMdbidsTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,12 +12,10 @@ class CreateTracksTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('tracks', function(Blueprint $table) {
+		Schema::create('used_mdbids', function(Blueprint $table) {
 			$table->increments('id');
 			$table->string('mdbid')->unique();
-			$table->integer('track');
-			$table->string('title');
-			$table->string('album_id');
+			$table->integer('table');
 			$table->timestamps();
 			$table->softDeletes();
 		});
@@ -31,7 +29,7 @@ class CreateTracksTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('tracks');
+		Schema::drop('used_mdbids');
 	}
 
 }

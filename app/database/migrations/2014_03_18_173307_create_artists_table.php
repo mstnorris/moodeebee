@@ -14,11 +14,11 @@ class CreateArtistsTable extends Migration {
 	{
 		Schema::create('artists', function(Blueprint $table) {
 			$table->increments('id');
-			$table->integer('id');
-			$table->string('mdbid');
+			$table->string('mdbid')->unique();
 			$table->string('name');
 			$table->string('sort_name');
 			$table->timestamps();
+			$table->softDeletes();
 		});
 	}
 

@@ -14,13 +14,13 @@ class CreateAlbumsTable extends Migration {
 	{
 		Schema::create('albums', function(Blueprint $table) {
 			$table->increments('id');
-			$table->integer('id');
-			$table->string('mdbid');
+			$table->string('mdbid')->unique();
 			$table->string('title');
 			$table->string('year');
 			$table->integer('tracks');
 			$table->string('artist_id');
 			$table->timestamps();
+			$table->softDeletes();#
 		});
 	}
 
