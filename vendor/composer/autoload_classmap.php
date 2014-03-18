@@ -6,8 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Album' => $baseDir . '/app/models/Album.php',
+    'AlbumsController' => $baseDir . '/app/controllers/AlbumsController.php',
     'Artist' => $baseDir . '/app/models/Artist.php',
     'ArtistsController' => $baseDir . '/app/controllers/ArtistsController.php',
+    'ArtistsTableSeeder' => $baseDir . '/app/database/seeds/ArtistsTableSeeder.php',
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'Boris\\Boris' => $vendorDir . '/d11wtq/boris/lib/Boris/Boris.php',
     'Boris\\CLIOptionsHandler' => $vendorDir . '/d11wtq/boris/lib/Boris/CLIOptionsHandler.php',
@@ -30,6 +33,7 @@ return array(
     'ClassPreloader\\Parser\\DirVisitor' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/DirVisitor.php',
     'ClassPreloader\\Parser\\FileVisitor' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/FileVisitor.php',
     'ClassPreloader\\Parser\\NodeTraverser' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/NodeTraverser.php',
+    'CreateAlbumsTable' => $baseDir . '/app/database/migrations/2014_03_18_182208_create_albums_table.php',
     'CreateArtistsTable' => $baseDir . '/app/database/migrations/2014_03_18_173307_create_artists_table.php',
     'Crypt_AES' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/AES.php',
     'Crypt_Base' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/Base.php',
