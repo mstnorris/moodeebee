@@ -66,7 +66,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'michagg7_moodeebee',
+			'database'  => 'michagg7_mdb_dev2',
 			'username'  => 'michagg7_mdb',
 			'password'  => 'dav3-clair3-coc0-cin0',
 			'charset'   => 'utf8',
