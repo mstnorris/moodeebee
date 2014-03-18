@@ -1,1 +1,3 @@
-/Users/Mike/Documents/git/moodeebee/app/views/users/index.blade.php
+<?php
+
+return "All Users";
