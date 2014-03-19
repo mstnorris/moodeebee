@@ -36,6 +36,8 @@ return array(
     'ClassPreloader\\Parser\\NodeTraverser' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/NodeTraverser.php',
     'CreateAlbumsTable' => $baseDir . '/app/database/migrations/2014_03_18_182208_create_albums_table.php',
     'CreateArtistsTable' => $baseDir . '/app/database/migrations/2014_03_18_173307_create_artists_table.php',
+    'CreatePermissionRoleTable' => $baseDir . '/app/database/migrations/2014_03_19_001124_create_permission_role_table.php',
+    'CreatePermissionsTable' => $baseDir . '/app/database/migrations/2014_03_19_001211_create_permissions_table.php',
     'CreateRolesTable' => $baseDir . '/app/database/migrations/2014_03_19_000825_create_roles_table.php',
     'CreateTracksTable' => $baseDir . '/app/database/migrations/2014_03_18_182607_create_tracks_table.php',
     'CreateUsedMdbidsTable' => $baseDir . '/app/database/migrations/2014_03_18_200604_create_used_mdbids_table.php',
