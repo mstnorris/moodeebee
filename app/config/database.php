@@ -65,6 +65,17 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
+			'host'      => 'host284.hostmonster.com',
+			'database'  => 'michagg7_mdb_dev2',
+			'username'  => 'michagg7_mdb',
+			'password'  => 'dav3-clair3-coc0-cin0',
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',
+		),
+
+		'mysql_deploy' => array(
+			'driver'    => 'mysql',
 			'host'      => getenv('DB_HOST'),
             'database'  => getenv('DB_NAME'),
             'username'  => getenv('DB_USER'),
