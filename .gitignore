@@ -1,4 +1,6 @@
 .DS_Store
+Thumbs.db
 /bootstrap/compiled.php
 /vendor
 .env.local.php
+.env.php
