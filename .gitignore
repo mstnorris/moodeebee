@@ -2,4 +2,3 @@
 /bootstrap/compiled.php
 /vendor
 composer.phar
-composer.lock
