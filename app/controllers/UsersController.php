@@ -10,6 +10,7 @@ class UsersController extends \BaseController {
 	public function index()
 	{
 		//
+		return "Show all users";
 	}
 
 	/**
@@ -20,6 +21,7 @@ class UsersController extends \BaseController {
 	public function create()
 	{
 		//
+		return "Show form to create a new user";
 	}
 
 	/**
@@ -30,6 +32,7 @@ class UsersController extends \BaseController {
 	public function store()
 	{
 		//
+
 	}
 
 	/**
@@ -41,6 +44,7 @@ class UsersController extends \BaseController {
 	public function show($id)
 	{
 		//
+		return "Show a specific user with the ID: " . $id;
 	}
 
 	/**
