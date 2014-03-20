@@ -10,7 +10,7 @@ class UsersController extends \BaseController {
 	public function index()
 	{
 		//
-		return "Show all users";
+		return View::make('users.index');
 	}
 
 	/**
