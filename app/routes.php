@@ -16,6 +16,11 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
+Route::get('test', function()
+{
+    return "This is a test";
+});
+
 Route::resource('users', 'UsersController');
 Route::resource('artists', 'ArtistsController');
 Route::resource('albums', 'AlbumsController');
