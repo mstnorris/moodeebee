@@ -21,6 +21,11 @@ Route::get('test', function()
     return "This is a test";
 });
 
+Route::get('test2', function()
+{
+    return "This is the second test";
+});
+
 Route::resource('users', 'UsersController');
 Route::resource('artists', 'ArtistsController');
 Route::resource('albums', 'AlbumsController');
